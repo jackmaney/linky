@@ -1,6 +1,5 @@
-var util = require("util");
-var Node = require("./lib/linkedNode.js");
-var LinkedList = require("./lib/linkedList.js");
+var DLL = require("./lib/doublyLinkedList");
 
-var l = new LinkedList([1,2,"blah"]);
-console.log(l.toString());
+var d = new DLL([3,-1,"feh",900]);
+
+console.log(d.toString());

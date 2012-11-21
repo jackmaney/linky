@@ -6,19 +6,17 @@ exports.linkedList = function(argArray,doublyLinked)
 
 	if(typeof(argArray)!=='undefined' && !Array.isArray(argArray))
 	{
-		throw new Error("The first constructor argument, if provided, must be an array");
+	    throw new Error("The first constructor argument, if provided, must be an array");
 	}
 
 	if(doublyLinked)
 	{
-		return new DoublyLinkedList(argArray);
+	    return new DoublyLinkedList(argArray);
 	}
 	else
 	{
-		return new SinglyLinkedList(argArray);
+	    return new SinglyLinkedList(argArray);
 	}
 }
-
-
 
 
