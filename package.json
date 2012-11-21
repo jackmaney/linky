@@ -1,0 +1,20 @@
+{
+  "name": "linky",
+  "version": "0.0.0",
+  "description": "A Simple Linked List Implementation in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jackmaney/linky.git"
+  },
+  "keywords": [
+    "linked",
+    "list"
+  ],
+  "author": "Jack Maney <jack@jackmaney.com>",
+  "license": "GPL",
+  "readmeFilename": "README.md"
+}
