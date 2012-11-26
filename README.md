@@ -39,7 +39,7 @@ Synopsis
 	var s = ll.shift(); //s is the node that used to be the first node of ll
 	console.log(ll.toString()) // '2 --> 3 --> 4 --> 5'
 
-	ll.pop(new Node(3.1415926));
+	ll.push(new Node(3.1415926));
 	console.log(ll.toArray()); // 2,3,4,5,3.1415926
 
 
