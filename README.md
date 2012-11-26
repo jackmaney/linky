@@ -59,4 +59,3 @@ Installation
 
 4. Enjoy!
 
-	npm
