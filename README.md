@@ -42,4 +42,21 @@ Synopsis
 	ll.push(new Node(3.1415926));
 	console.log(ll.toArray()); // 2,3,4,5,3.1415926
 
+Installation
+-------
 
+1. If you don't already, make sure that you have both [Node.js](http://nodejs.org) and [npm](https://npmjs.org/) installed. **Note**: If you have a recent version of Node installed, then you automatically have npm. (Also, make sure that you have [git](http://git-scm.com/) installed...but if you're on GitHub, then you probably have git installed...right?)
+
+2. Clone linky:
+
+	mkdir ~/linky && cd ~/linky && git clone https://github.com/jackmaney/linky.git
+
+(Of course, if you want to install to a directory other than `~/linky`, feel free.)
+
+3. Install the dependencies (perform this while still in `~/linky`, or wherever you cloned linky in step 2):
+
+	npm install
+
+4. Enjoy!
+
+	npm
